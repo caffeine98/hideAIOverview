@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="15.097949mm"
+   height="5.3835244mm"
+   viewBox="0 0 15.097949 5.3835244"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="64"
-     inkscape:cx="341.00781"
-     inkscape:cy="426.82031"
+     inkscape:zoom="22.627417"
+     inkscape:cx="24.218407"
+     inkscape:cy="10.407728"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="-11"
@@ -35,6 +35,22 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <inkscape:path-effect
+       center_point="90.663161,112.58813"
+       end_point="90.663161,113.567"
+       start_point="90.663161,111.60927"
+       effect="mirror_symmetry"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites="#path11"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="true"
+       split_open="false"
+       link_styles="false" />
     <inkscape:path-effect
        effect="simplify"
        id="path-effect17"
@@ -76,22 +92,21 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.40615px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ffffff;stroke-width:0.534684"
-       x="77.857544"
-       y="116.78324"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.40615px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.534685"
-         x="77.857544"
-         y="116.78324"><tspan
-           style="fill:#84abf9;fill-opacity:1"
-           id="tspan7">HAI</tspan><tspan
-           style="fill:#fad684;fill-opacity:1"
-           id="tspan6">O</tspan></tspan></text>
+     id="layer1"
+     transform="translate(-78.427696,-111.46378)">
+    <g
+       id="text1"
+       style="font-weight:500;font-size:6.40615px;font-family:'JetBrains Mono NL';-inkscape-font-specification:'JetBrains Mono NL, Medium';fill:#ffffff;stroke-width:0.534684"
+       aria-label="HAIO">
+      <path
+         style="fill:#84abf9;stroke-width:0.534685"
+         d="m 78.427691,116.78324 v -4.67649 H 79.0619 v 1.9731 h 1.434978 v -1.9731 h 0.634209 v 4.67649 H 80.496878 V 114.6564 H 79.0619 v 2.12684 z m 3.568228,0 1.210762,-4.67649 h 0.839206 l 1.204356,4.67649 h -0.647021 l -0.294683,-1.21717 h -1.370916 l -0.294683,1.21717 z m 1.069827,-1.74247 h 1.11467 l -0.33312,-1.39654 q -0.09609,-0.38437 -0.153747,-0.65343 -0.05766,-0.26906 -0.07047,-0.36515 -0.01281,0.0961 -0.07047,0.36515 -0.05766,0.26906 -0.147342,0.64702 z m 3.126204,1.74247 v -0.57655 h 0.954516 v -3.52338 H 86.19195 v -0.57656 h 2.549647 v 0.57656 h -0.954516 v 3.52338 h 0.954516 v 0.57655 z"
+         id="path12" />
+      <path
+         style="fill:#fad684;stroke-width:0.534685"
+         d="m 91.310465,116.8473 q -0.640615,0 -1.012171,-0.37155 -0.371557,-0.37156 -0.371557,-1.05061 v -1.96669 q 0,-0.67265 0.371557,-1.0442 0.371556,-0.37156 1.012171,-0.37156 0.640615,0 1.012172,0.37156 0.371557,0.36515 0.371557,1.0442 v 1.96669 q 0,0.67905 -0.371557,1.05061 -0.371557,0.37155 -1.012172,0.37155 z m 0,-0.56374 q 0.358745,0 0.550929,-0.205 0.198591,-0.20499 0.198591,-0.58936 v -2.09481 q 0,-0.37796 -0.192185,-0.58296 -0.192184,-0.205 -0.557335,-0.205 -0.36515,0 -0.557335,0.205 -0.192184,0.205 -0.192184,0.58296 v 2.09481 q 0,0.38437 0.192184,0.58936 0.198591,0.205 0.557335,0.205 z"
+         id="path13" />
+    </g>
     <path
        style="fill:#fad684;fill-opacity:1;stroke-width:0.316387"
        id="path1"
@@ -160,7 +175,7 @@
        inkscape:path-effect="#path-effect9"
        inkscape:original-d="m 90.592007,115.13366 c 0.238551,-0.0379 0.477099,-0.0758 0,0 z" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#5e687a;stroke-width:0.05;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;fill-opacity:1;stroke:#5e687a;stroke-width:0.05;stroke-dasharray:none;stroke-opacity:1"
        d="m 91.307657,115.00914 c -0.003,0.0791 -0.03208,0.15706 -0.0817,0.21877 -0.04962,0.0617 -0.119495,0.10685 -0.196143,0.12673 -0.07665,0.0199 -0.159653,0.0144 -0.233015,-0.0154 -0.07336,-0.0298 -0.136676,-0.0838 -0.177739,-0.15147 -0.01047,-0.0173 -0.01952,-0.0354 -0.02705,-0.0541"
        id="path10"
        inkscape:path-effect="#path-effect10"
@@ -196,7 +211,14 @@
        id="use15"
        transform="matrix(-0.96756599,0,0,1,179.67109,0)" />
     <path
-       id="path16"
+       style="fill:#f8c755;fill-opacity:1;stroke:none;stroke-width:0.0524178;stroke-dasharray:none;stroke-opacity:1"
+       d="m 89.30659,113.567 -0.160685,-1.95773 1.517256,0.564 c -0.496822,0.2595 -1.105845,0.63257 -1.356571,1.39373 z"
+       id="path7"
+       sodipodi:nodetypes="cccc"
+       inkscape:path-effect="#path-effect8"
+       inkscape:original-d="m 89.30659,113.567 -0.160685,-1.95773 1.517256,0.564 c -0.496822,0.2595 -1.105845,0.63257 -1.356571,1.39373 z" />
+    <path
+       id="path11"
        d="m 89.30659,113.567 -0.160685,-1.95773 1.517256,0.564 c -0.496822,0.2595 -1.105845,0.63257 -1.356571,1.39373 z"
        style="fill:#f8c755;fill-opacity:1;stroke:none;stroke-width:0.0524178;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(-1,0,0,1,182.58705,0)" />
