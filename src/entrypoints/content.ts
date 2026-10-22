@@ -21,7 +21,7 @@ function showOverview(overview: HTMLElement): void {
   console.log("AI Overview is visible")
 }
 
-function setHidden(overview: HTMLElement, button: HTMLButtonElement, isHidden: boolean): void{
+function setHidden(overview: HTMLElement, button: HTMLButtonElement, isHidden: boolean): void {
   button.setAttribute('aria-expanded', String(!isHidden));
   button.innerText = isHidden ? 'AI Overview ▶' : 'AI Overview ▼';
   if (isHidden) {

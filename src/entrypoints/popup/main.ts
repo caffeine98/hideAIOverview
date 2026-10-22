@@ -1,17 +1,13 @@
 import './style.css';
-import typescriptLogo from '@/assets/typescript.svg';
-import wxtLogo from '/wxt.svg';
+import haioLogo from '@/assets/logo.svg';
 import { setupCounter } from '@/components/counter';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <a href="https://wxt.dev" target="_blank">
-      <img src="${wxtLogo}" class="logo" alt="WXT logo" />
+    <a href="https://github.com/caffeine98/hideAIOverview" target="_blank">
+      <img src="${haioLogo}" class="logo" alt="HAIO Logo" />
     </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>WXT + TypeScript</h1>
+    <h1>HAIO - Hide AI Overlay</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
