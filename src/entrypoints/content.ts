@@ -1,3 +1,5 @@
+import { collapseByDefault } from "@/utils/settings";
+
 const OVERVIEW_SELECTORS = ['#B2Jtyd', '#Odp5De'];
 const HIDEAIOVERVIEW_ATTR = 'data-hideaioverview-hidden';
 const ALWAYS_START_HIDDEN: boolean = true;
@@ -55,8 +57,9 @@ function collapseOverview(overview: HTMLElement): void {
 export default defineContentScript({
   matches: ['*://*.google.com/search*'],
   runAt: 'document_start',
-  main() {
-    console.log('Running hideAIOverview...');
+  async main() {
+    if (!(await collapseByDefault.getValue()))
+      return;
 
     const run = () => {
       const overview = findOverview();
