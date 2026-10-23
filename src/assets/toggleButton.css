@@ -1,6 +1,6 @@
 :host {
     --text: #5E687A;
-    --text-hover: #FFFFFF;
+    --text-hover: #000000;
     --border: #919FBA;
     --hover-bg: #84ABF9;    /* #84ABF92E */
     --hover-border: #84ABF9;
@@ -10,6 +10,7 @@
 @media (prefers-color-scheme: dark) {
     :host {
         --text: #5E687A;
+        --text-hover: #000000;
         --border: #5E687A;
         --hover-bg: #84ABF9;    /* #84ABF92E */
         --hover-border: #84ABF9;
