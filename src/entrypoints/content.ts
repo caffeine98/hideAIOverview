@@ -2,7 +2,6 @@ import { collapseByDefault } from "@/utils/settings";
 
 const OVERVIEW_SELECTORS = ['#B2Jtyd', '#Odp5De'];
 const HIDEAIOVERVIEW_ATTR = 'data-hideaioverview-hidden';
-const ALWAYS_START_HIDDEN: boolean = true;
 
 function findOverview(): HTMLElement | null {
   for (const selector of OVERVIEW_SELECTORS) {
@@ -50,12 +49,15 @@ function collapseOverview(overview: HTMLElement): void {
     setHidden(overview, button, isExpanded);
   });
   
-  setHidden(overview, button, ALWAYS_START_HIDDEN);
+  setHidden(overview, button, true); // hidden at start
   overview.before(button);
 }
 
 export default defineContentScript({
-  matches: ['*://*.google.com/search*'],
+  matches: [
+    '*://*.google.com/search*',
+    '*://www.google.com/search*',
+  ],
   runAt: 'document_start',
   async main() {
     if (!(await collapseByDefault.getValue()))
@@ -64,7 +66,6 @@ export default defineContentScript({
     const run = () => {
       const overview = findOverview();
       if (overview) {
-        console.log(`Selector: ${overview}`);
         collapseOverview(overview);
       }
     }
