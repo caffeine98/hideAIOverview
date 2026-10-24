@@ -2,7 +2,7 @@
 
 ![Logo](./src/assets/logo128.png)
 
-This browser extension lets you hide the AI Overlay within Google search results. The AI Overlay often spoils results of matches, or events within its responses. Or sometimes you just don't want any overview and just care about links. This extension hides the overview, and lets you toggle to show or hide it.
+This browser extension lets you hide the AI Overview within Google search results. The AI Overview often spoils results of matches, or events within its responses. Or sometimes you just don't want any overview and just care about links. This extension hides the overview, and lets you toggle to show or hide it.
 
 ## Important Notice
 
