@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
     :host {
-        --text: #5E687A;
+        --text: #919FBA;
         --text-hover: #000000;
         --border: #5E687A;
         --hover-bg: #84ABF9;    /* #84ABF92E */
@@ -30,7 +30,7 @@ button {
     color: var(--text);
     font: 500 13px/18px Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     cursor: pointer;
-    transition: background-color 0.15s, border-color 0.15s;
+    transition: background-color 0.15s, border-color 0.15s color 0.15s;
 }
 
 button:hover {
