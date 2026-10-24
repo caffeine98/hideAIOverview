@@ -11,3 +11,7 @@ Because the extension works by finding specific selectors and hiding it, this ex
 ## Supported browsers and search engines
 
 Currently it only supports Chrome and Google search. I will add Firefox support and support for other search engines (like DuckDuckGo) only if this somehow, magically, becomes some popular extension. Otherwise this remains as my short term side project.
+
+## Licensing
+
+HAIO is MIT licensed. Also, feel free to use/steal my terrible artwork.
