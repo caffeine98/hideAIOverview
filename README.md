@@ -15,3 +15,7 @@ Currently it only supports Chrome and Google search. I will add Firefox support 
 ## Licensing
 
 HAIO is MIT licensed. Also, feel free to use/steal my terrible artwork.
+
+## Link
+
+[Chrome Web Store](https://chromewebstore.google.com/detail/haio-hide-ai-overview/amkpgbhdehmbdcaikbmndhnmlgohmiho)
